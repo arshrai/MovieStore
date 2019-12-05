@@ -7,8 +7,8 @@ namespace MovieStore
 {
     public class DatabaseManager
     {
-        public string constring = @"Data Source = LAPTOP-RAKIOMBV\SQLEXPRESS;Initial Catalog = MOVIE_STORE; Integrated Security = True";
-        SqlConnection SqlConn = new SqlConnection("Data Source = LAPTOP-RAKIOMBV\\SQLEXPRESS;Initial Catalog = MOVIE_STORE; Integrated Security = True");
+        public string constring = "Data Source = ARSHRAI\\SQLEXPRESS;Initial Catalog = MOVIE_STORE; Integrated Security = True";
+        SqlConnection SqlConn = new SqlConnection("Data Source = ARSHRAI\\SQLEXPRESS;Initial Catalog = MOVIE_STORE; Integrated Security = True");
         SqlCommand SqlStr = new SqlCommand();
         SqlDataReader SqlReader;
         String SqlStmt;
